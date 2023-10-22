@@ -4,3 +4,5 @@ const soccerGearItems = ['football boots', 'shin pads', 'track suit', 'soccer ba
 soccerGearItems.forEach(soccerGearItem => {console.log(soccerGearItem)});
 //render to html
 document.getElementById("for-each").innerHTML = soccerGearItems;
+
+//Reserve a String
