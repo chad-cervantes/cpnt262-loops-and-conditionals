@@ -6,3 +6,8 @@ soccerGearItems.forEach(soccerGearItem => {console.log(soccerGearItem)});
 document.getElementById("for-each").innerHTML = soccerGearItems;
 
 //Reserve a String
+const reversed = soccerGearItems.reverse();
+
+console.log('reversed', reversed);
+//render to html
+document.getElementById("reverse-a-string").innerHTML = soccerGearItems;
