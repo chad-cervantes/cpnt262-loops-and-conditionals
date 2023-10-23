@@ -12,6 +12,7 @@ console.log('reversed', reversed);
 //render to html
 document.getElementById("reverse-an-array").innerHTML = soccerGearItems;
 
+
 //Find longest word in string
 const bestCity = 'Barcelona is the best city in Europe'
 
@@ -39,3 +40,25 @@ console.log(findLongestWordLength(bestCity));
 document.getElementById("string").innerHTML = bestCity;
 //find longest word
 document.getElementById("longest-word").innerHTML = findLongestWordLength(bestCity);
+
+
+//Reverse a String
+const bestFootballPlayer = 'Lionel Messi'
+
+function reverseString(str) {
+  
+  let splitString = str.split("");
+  
+  let reverseArray = splitString.reverse();
+
+  let joinArray = reverseArray.join("");
+
+  return joinArray;
+}
+
+//render to html
+//Original string
+document.getElementById("original-string").innerHTML = bestFootballPlayer;
+//Reverse string
+document.getElementById("reverse-a-string").innerHTML = reverseString(bestFootballPlayer);
+
