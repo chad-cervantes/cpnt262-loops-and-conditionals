@@ -13,3 +13,7 @@ Find the longest word in a string
 
 Reverse a String
 - [freeCodeCamp - reverse a string](https://www.freecodecamp.org/news/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb/)
+
+Classmates 
+- Ashkie
+- Brendan 
