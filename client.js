@@ -5,12 +5,12 @@ soccerGearItems.forEach(soccerGearItem => {console.log(soccerGearItem)});
 //render to html
 document.getElementById("for-each").innerHTML = soccerGearItems;
 
-//Reserve a String
+//Reserve an Array
 const reversed = soccerGearItems.reverse();
 
 console.log('reversed', reversed);
 //render to html
-document.getElementById("reverse-a-string").innerHTML = soccerGearItems;
+document.getElementById("reverse-an-array").innerHTML = soccerGearItems;
 
 //Find longest word in string
 const bestCity = 'Barcelona is the best city in Europe'
