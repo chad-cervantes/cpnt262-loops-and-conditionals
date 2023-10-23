@@ -8,6 +8,7 @@ forEach method
 
 Reverse an Array
 - [Mozilla Developer - array.reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse) 
+- Important Note: I did a Reverese an Array instead of Reverse a String by accident since I thought I did Reverse a String; I made a separate section for Reverse a String
 
 Find the longest word in a string
 - [freeCodeCamp Youtube video](https://www.youtube.com/watch?v=DHgrWgIeY0Y)
