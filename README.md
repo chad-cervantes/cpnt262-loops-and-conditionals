@@ -5,8 +5,11 @@
 forEach method
 - [freeCodeCamp - JS loop](https://www.freecodecamp.org/news/what-in-the-world-is-a-javascript-loop-for/)
 
-Reverse a String
+Reverse an Array
 - [Mozilla Developer - array.reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse) 
 
 Find the longest word in a string
 - [freeCodeCamp Youtube video](https://www.youtube.com/watch?v=DHgrWgIeY0Y)
+
+Reverse a String
+- [freeCodeCamp - reverse a string](https://www.freecodecamp.org/news/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb/)
