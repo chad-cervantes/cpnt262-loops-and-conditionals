@@ -62,3 +62,26 @@ document.getElementById("original-string").innerHTML = bestFootballPlayer;
 //Reverse string
 document.getElementById("reverse-a-string").innerHTML = reverseString(bestFootballPlayer);
 
+
+//Title Case a sentence
+const durian = 'Durian is considered the smelliest fruit in the world'
+
+function titleCase(str) {
+  
+  str = str.toLowerCase(); 
+   
+  str = str.split(' ');
+  
+
+  for (let i = 0; i < str.length; i++) {
+    str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+  }
+
+  return str.join(' ');
+}
+
+//render to html
+
+//Title Case
+document.getElementById("title-case").innerHTML = titleCase(durian);
+
