@@ -29,10 +29,13 @@ function findLongestWordLength(str) {
     }
   }
 
-  return longestWord.length;
+  return longestWord;
  
 }  
 console.log(findLongestWordLength(bestCity));
 
 //render to html
+//string 
+document.getElementById("string").innerHTML = bestCity;
+//find longest word
 document.getElementById("longest-word").innerHTML = findLongestWordLength(bestCity);
