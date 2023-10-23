@@ -15,7 +15,7 @@ Reverse a String
 - [freeCodeCamp - reverse a string](https://www.freecodecamp.org/news/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb/)
 
 Title Case a sentence
-- [freeCodeCamo - Title Case a sentence](https://www.freecodecamp.org/news/three-ways-to-title-case-a-sentence-in-javascript-676a9175eb27/)
+- [freeCodeCamp - Title Case a sentence](https://www.freecodecamp.org/news/three-ways-to-title-case-a-sentence-in-javascript-676a9175eb27/)
 
 Classmates 
 - Ashkie
