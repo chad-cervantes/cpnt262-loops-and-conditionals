@@ -13,7 +13,7 @@ console.log('reversed', reversed);
 document.getElementById("reverse-a-string").innerHTML = soccerGearItems;
 
 //Find longest word in string
-const bestCity = ['Barcelona is the best city in Europe']
+const bestCity = 'Barcelona is the best city in Europe'
 
 function findLongestWordLength(str) {
   
