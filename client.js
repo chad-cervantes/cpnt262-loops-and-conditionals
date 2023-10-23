@@ -81,7 +81,8 @@ function titleCase(str) {
 }
 
 //render to html
-
+//Original string
+document.getElementById("original-title-case-string").innerHTML = durian;
 //Title Case
 document.getElementById("title-case").innerHTML = titleCase(durian);
 
