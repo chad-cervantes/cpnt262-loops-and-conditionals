@@ -14,14 +14,19 @@ document.getElementById("reverse-an-array").innerHTML = soccerGearItems;
 
 
 //Find longest word in string
+
+//made string
 const bestCity = 'Barcelona is the best city in Europe'
 
 function findLongestWordLength(str) {
   
+  //to find the longest word
   let longestWord = '';
  
+  //split each word to individual letters
   let words = str.split(" ");
   
+  //set up the parameters
   for (let i = 0; i < words.length; i++) {
     let individualWord = words[i];
     
@@ -30,8 +35,8 @@ function findLongestWordLength(str) {
     }
   }
 
+  //gave back the longest word in the string
   return longestWord;
- 
 }  
 console.log(findLongestWordLength(bestCity));
 
