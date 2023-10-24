@@ -43,16 +43,22 @@ document.getElementById("longest-word").innerHTML = findLongestWordLength(bestCi
 
 
 //Reverse a String
+
+//made the string
 const bestFootballPlayer = 'Lionel Messi'
 
 function reverseString(str) {
   
+  //split letters of both words
   let splitString = str.split("");
   
+  //reversed the letters 
   let reverseArray = splitString.reverse();
 
+  //put back the reversed letters together
   let joinArray = reverseArray.join("");
 
+  //returned the reversed version of the string
   return joinArray;
 }
 
