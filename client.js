@@ -64,19 +64,24 @@ document.getElementById("reverse-a-string").innerHTML = reverseString(bestFootba
 
 
 //Title Case a sentence
+//made the string
 const durian = 'Durian is considered the smelliest fruit in the world'
 
+//made the function and it's steps
 function titleCase(str) {
   
+  //made all letters lowercase
   str = str.toLowerCase(); 
-   
+  
+  //split all the letters from the words to identify each letter
   str = str.split(' ');
   
-
+  //made the first letter of each word capitalized
   for (let i = 0; i < str.length; i++) {
     str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
   }
 
+  //used join method to put back together the words
   return str.join(' ');
 }
 
