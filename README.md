@@ -22,3 +22,11 @@ Title Case a sentence
 Classmates 
 - Ashkie
 - Brendan 
+
+### Code Journal
+
+When I was doing this graded activity, the first thing I did was to review loop and conditionals and how they worked. After that, I had to do some research on the challenges that I did, and how it was done. 
+
+Even with doing the research on how it was done, I had some problems with the return statements or I would get an error in the console telling me that this string wasn't a function. In order to resolve this, I had to carefully look at each line to make sure that I didn't miss anything like forgetting to add a ; or a parameter, or misspelling a word.
+
+When I was doing Title Case a sentence, all of the letters of each word were capitalized. With Brendan's help, he suggested that I should space out the quotations from the str formula. As a result, I was able to capitalize the first letter of each word and space each word out. Something like this makes me realize how important it is to have someone check over your code to see if your writing it properly.
